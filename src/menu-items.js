@@ -24,6 +24,75 @@ const menuItems = {
         }
       ]
     },
+
+    // NUEVO GRUPO: MÓDULOS DOCTRACK
+    {
+      id: 'doctrack-modulos',
+      title: 'MÓDULOS',
+      subtitle: 'Funcionalidades del sistema',
+      type: 'group',
+      icon: 'icon-modulos',
+      children: [
+        {
+          id: 'clientes',
+          title: 'Clientes',
+          type: 'item',
+          url: '/clientes',
+          icon: 'material-icons-two-tone',
+          iconname: 'groups'
+        },
+        {
+          id: 'casos',
+          title: 'Casos Migratorios',
+          type: 'item',
+          url: '/casos',
+          icon: 'material-icons-two-tone',
+          iconname: 'work'
+        },
+        {
+          id: 'documentos',
+          title: 'Documentos',
+          type: 'item',
+          url: '/documentos',
+          icon: 'material-icons-two-tone',
+          iconname: 'folder'
+        },
+        {
+          id: 'pagos',
+          title: 'Pagos & Reportes',
+          type: 'item',
+          url: '/pagos',
+          icon: 'material-icons-two-tone',
+          iconname: 'assignment'
+        },
+        {
+          id: 'configuracion',
+          title: 'Configuración',
+          type: 'item',
+          url: '/configuracion',
+          icon: 'material-icons-two-tone',
+          iconname: 'settings'
+        },
+        {
+          id: 'academia',
+          title: 'Academia Doctrack',
+          type: 'item',
+          url: '/academia',
+          icon: 'material-icons-two-tone',
+          iconname: 'school'
+        },
+        {
+          id: 'soporte',
+          title: 'Soporte',
+          type: 'item',
+          url: '/soporte',
+          icon: 'material-icons-two-tone',
+          iconname: 'support'
+        }
+      ]
+    },
+
+    // UI ELEMENTS
     {
       id: 'ui-element',
       title: 'ELEMENTS',
@@ -76,6 +145,8 @@ const menuItems = {
         }
       ]
     },
+
+    // PAGES
     {
       id: 'pages',
       title: 'Pages',
@@ -103,6 +174,8 @@ const menuItems = {
         }
       ]
     },
+
+    // EXTRA
     {
       id: 'support',
       title: 'OTHER',

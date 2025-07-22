@@ -7,7 +7,7 @@ import { ListGroup, Dropdown, Form } from 'react-bootstrap';
 import FeatherIcon from 'feather-icons-react';
 
 // assets
-import avatar2 from 'assets/images/user/avatar-2.jpg';
+import avatar2 from 'assets/images/user/carlos.png';
 
 // -----------------------|| NAV RIGHT ||-----------------------//
 
@@ -34,7 +34,7 @@ export default function NavRight() {
           <Dropdown.Toggle as="a" variant="link" className="pc-head-link arrow-none me-0 user-name">
             <img src={avatar2} alt="userimage" className="user-avatar" />
             <span>
-              <span className="user-name">Joseph William</span>
+              <span className="user-name">Carlos Lozada</span>
               <span className="user-desc">Administrator</span>
             </span>
           </Dropdown.Toggle>

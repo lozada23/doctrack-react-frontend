@@ -13,7 +13,7 @@ import { ConfigContext } from 'contexts/ConfigContext';
 import SimpleBar from 'simplebar-react';
 
 // assets
-import logo from 'assets/images/logo.svg';
+import logo from 'assets/images/logo.png';
 
 // -----------------------|| NAV CONTENT ||-----------------------//
 
@@ -61,7 +61,7 @@ export default function NavContent({ navigation, activeNav }) {
   const mHeader = (
     <div className="m-header">
       <Link to="/dashboard/sales" className="b-brand">
-        <img src={logo} alt="" className="logo logo-lg" />
+      <img src={logo} alt="" style={{ height: '40px', width: 'auto' }} />
       </Link>
     </div>
   );

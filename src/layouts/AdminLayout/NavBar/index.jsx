@@ -1,7 +1,7 @@
 import { useContext } from 'react';
 
 // project imports
-import NavLeft from './NavLeft';
+//import NavLeft from './NavLeft';
 import NavRight from './NavRight';
 import { ConfigContext } from 'contexts/ConfigContext';
 
@@ -24,9 +24,9 @@ export default function NavBar() {
   let navBar = (
     <>
       <div className="header-wrapper">
-        <div className={mobDrpClass.join(' ')}>
-          <NavLeft />
-        </div>
+        {/* <div className={mobDrpClass.join(' ')}>
+          <NavLeft /> 
+        </div>*/}
         <div className="ms-auto">
           <NavRight />
         </div>
